@@ -57,8 +57,35 @@
 			border:0
 		}
 		@media only screen and (max-width: 767px) {.main{width:300px;	margin-top:50px} h1 {font-size:30pt}}
+		@font-face {
+			font-family:'fontello';
+			src:url('fonts/fontello.eot?98404843');
+			src:url('fonts/fontello.eot?98404843#iefix') format('embedded-opentype'),
+				url('fonts/fontello.woff2?98404843') format('woff2'),
+				url('fonts/fontello.woff?98404843') format('woff'),
+				url('fonts/fontello.ttf?98404843') format('truetype'),
+				url('fonts/fontello.svg?98404843#fontello') format('svg');
+			font-weight:normal;
+			font-style:normal
+		}
+		[class^="icon-"]:before, [class*=" icon-"]:before {
+			font:normal normal normal 16px/1 fontello;
+			speak:none;
+			display:inline-block;
+			text-decoration:inherit;
+			text-align:center;
+			text-transform:none;
+			width:1.28571429em;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing:grayscale
+		}
+		[class^="icon-"], [class*=" icon-"] { font-weight:normal }
+		.icon-mail:before { content:'\f0e0' }
+		.icon-twitter:before { content:'\f099' }
+		.icon-linkedin:before { content:'\f0e1' }
+		.icon-github:before { content:'\f09b' }
+		.icon-flickr:before { content:'\f16e' }
 	</style>
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="main">
@@ -70,31 +97,31 @@
 	 <li>
 	 	<a href="https://www.linkedin.com/in/davemarquard">
 			<span class="sr-only">LinkedIn Profile</span>
-			<span aria-hidden="true" class="fa fa-fw fa-linkedin"></span>
+			<span aria-hidden="true" class="icon-linkedin"></span>
 	 	</a>
 	 </li>
 	 <li>
 	 	<a href="https://github.com/dave-atx">
 			<span class="sr-only">GitHub Profile</span>
-	 		<span aria-hidden="true" class="fa fa-fw fa-github"></span>
+	 		<span aria-hidden="true" class="icon-github"></span>
 	 	</a>
 	 </li>
 	 <li>
 	 	<a href="https://twitter.com/lurp">
 			<span class="sr-only">Twitter Page</span>
-	 		<span aria-hidden="true" class="fa fa-fw fa-twitter"></span>
+	 		<span aria-hidden="true" class="icon-twitter"></span>
 	 	</a>
 	 </li>
 	 <li>
 	 	<a href="https://flickr.com/photos/lurp">
 			<span class="sr-only">Flickr Photos</span>
-	 		<span aria-hidden="true" class="fa fa-fw fa-flickr"></span>
+	 		<span aria-hidden="true" class="icon-flickr"></span>
 	 	</a>
 	 </li>
 	 <li>
 	 	<a href="https://www.google.com/recaptcha/mailhide/d?k=01CAh1hjOya1XUftkXZVlCDA==&c=D0I7y1WVHPH-O4tA_mQXKtrDM1U-l7qRsm5AWqvozLs=">
 			<span class="sr-only">Email Address - Opens In New Window</span>
-	 		<span aria-hidden="true" class="fa fa-fw fa-envelope"></span>
+	 		<span aria-hidden="true" class="icon-mail"></span>
 	 	</a>
 	 </li>
 	</ul>
