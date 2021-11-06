@@ -10,7 +10,7 @@ enableRobotsTXT = true
 pygmentsStyle = "monokai"
 
 [params]
-  description = "I work on software. I live in New York. I travel, I dive, I run."
+  description = "I build software. I live in New York. I travel, I dive, I run."
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
   customHeadHTML = """<style>.header, .footer { display:none }</style>
