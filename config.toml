@@ -17,7 +17,7 @@ pygmentsStyle = "monokai"
   """
   socialIcons = [
     {name = "linkedin", url = "https://www.linkedin.com/in/davemarquard"},
-    {name = "github", url = "https://github.com/dave-atx"}
+    {name = "github", url = "https://github.com/dave-atx"},
     {name = "twitter", url = "https://twitter.com/lurp"},
     {name = "instagram", url = "https://www.instagram.com/dave_marquard/"},
     {name = "gmail", url = "mailto:dave@marquard.org"},
