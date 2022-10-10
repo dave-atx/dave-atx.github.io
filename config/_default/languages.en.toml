@@ -1,0 +1,26 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Dave Marquard"
+# logo = "img/avatar.jpg"
+description = "My awesome website"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "2 January 2006"
+
+[author]
+  name = "Dave Marquard"
+  image = "img/avatar.jpg"
+  headline = "I build software. I live in wine country. I travel, I dive, I run."
+  # bio = "A little bit about you"
+  links = [
+    { "linkedin" = "https://www.linkedin.com/in/davemarquard" },
+    { "github" = "https://github.com/dave-atx" },
+    { "twitter" = "https://twitter.com/lurp" },
+    { "instagram" = "https://www.instagram.com/dave_marquard/" },
+    { "email" = "mailto:dave@marquard.org" },
+ ]
