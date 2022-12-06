@@ -21,6 +21,7 @@ dateFormat = "2 January 2006"
     { "linkedin" = "https://www.linkedin.com/in/davemarquard" },
     { "github" = "https://github.com/dave-atx" },
     { "twitter" = "https://twitter.com/lurp" },
+    { "mastodon" = "https://mastodon.social/@DaveMarquard" },
     { "instagram" = "https://www.instagram.com/dave_marquard/" },
     { "email" = "mailto:dave@marquard.org" },
  ]
